@@ -105,7 +105,7 @@ class Adafruit_GPS {
     Adafruit_GPS(NewSoftSerial  *ser); // Constructor when using NewSoftSerial
   #endif
 #endif
-  Adafruit_GPS(HardwareSerial *ser); // Constructor when using HardwareSerial
+  Adafruit_GPS(Serial *ser); // Constructor when using HardwareSerial
 
   char *lastNMEA(void);
   boolean newNMEAreceived();
