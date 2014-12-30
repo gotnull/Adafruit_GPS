@@ -1,0 +1,1 @@
+Adafruit GPS Library for SparkCore
