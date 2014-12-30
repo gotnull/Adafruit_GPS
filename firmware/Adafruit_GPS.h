@@ -90,8 +90,7 @@ All text above must be included in any redistribution
  #include "SoftwareSerial.h"
 #endif
 #else
- #include "WProgram.h"
- #include "NewSoftSerial.h"
+ #include "application.h"
 #endif
 
 
